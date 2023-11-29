@@ -1,0 +1,6 @@
+data/io.github.dingusreal.Chicken.desktop.in
+data/io.github.dingusreal.Chicken.metainfo.xml.in
+data/io.github.dingusreal.Chicken.gschema.xml
+src/main.js
+src/window.js
+src/window.ui

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=chicken
+Exec=io.github.dingusreal.Chicken
+Icon=io.github.dingusreal.Chicken
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
