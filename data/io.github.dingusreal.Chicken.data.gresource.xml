@@ -2,5 +2,6 @@
 <gresources>
   <gresource prefix="/io/github/dingusreal/Chicken">
     <file>chicken.png</file>
+    <file>css/chicken.css</file>
   </gresource>
 </gresources>
