@@ -1,0 +1,33 @@
+@keyframes rotate {
+  0% {
+    -gtk-icon-transform: perspective(512px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  100% {
+    -gtk-icon-transform: perspective(512px) rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+window {
+  background-image: linear-gradient(to top left, #5e5c64, #241f31);
+}
+
+.chicken {
+
+  -gtk-icon-shadow: 0 2px 16px rgba(0,0,0,0.5);
+  padding: 32px;
+}
+
+.animate {
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-delay: 0s;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.chickenbox {
+  padding: 8px;
+}
+
