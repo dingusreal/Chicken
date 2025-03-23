@@ -7,15 +7,7 @@
   }
 }
 
-window {
-  background-image: linear-gradient(to top left, #5e5c64, #241f31);
-}
 
-.chicken {
-
-  -gtk-icon-shadow: 0 2px 16px rgba(0,0,0,0.5);
-  padding: 32px;
-}
 
 .animate {
   animation-name: rotate;
@@ -28,6 +20,6 @@ window {
   animation-play-state: running;
 }
 .chickenbox {
-  padding: 8px;
+  padding: 6px;
 }
 

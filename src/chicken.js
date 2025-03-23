@@ -18,20 +18,16 @@ export const FbrApplication = GObject.registerClass({
 			Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
 		);
 		const styleManager = Adw.StyleManager.get_default();
-		styleManager.set_color_scheme(3);
 }
 	vfunc_activate() {
 		const window = new Adw.ApplicationWindow({ application: this });
 		window.default_height = 560;
 		window.default_width = 640;
-    window.add_css_class("osd");
-    window.add_css_class("devel");
 	  const view = new Adw.ToolbarView();
 	  view.set_top_bar_style(0);
 	  const header = new Adw.HeaderBar();
 	  const titleWidget = new Adw.WindowTitle();
 	  const box = new Gtk.Box();
-	  window.add_css_class("monospace");
 	  titleWidget.set_title("Chicken");
 	  header.set_title_widget(titleWidget);
 	  view.add_top_bar(header);

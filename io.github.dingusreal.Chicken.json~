@@ -1,9 +1,10 @@
 {
     "app-id" : "io.github.dingusreal.Chicken",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.node18",
         "org.freedesktop.Sdk.Extension.typescript"
     ],
     "command" : "io.github.dingusreal.Chicken",
@@ -15,8 +16,7 @@
         "--socket=wayland"
     ],
     "build-options" : {
-        "append-path" : "/usr/lib/sdk/typescript/bin",
-        "env" : {        }
+        "append-path" : "/usr/lib/sdk/typescript/bin:/usr/lib/sdk/node18/bin"
     },
     "cleanup" : [
         "/include",
@@ -39,9 +39,6 @@
                     "type" : "git",
                     "url" : "file:///home/dingus/Projects"
                 }
-            ],
-            "config-opts" : [
-                "--libdir=lib"
             ]
         }
     ]
