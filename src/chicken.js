@@ -28,7 +28,7 @@ export const FbrApplication = GObject.registerClass({
 	  const header = new Adw.HeaderBar();
 	  const titleWidget = new Adw.WindowTitle();
 	  const box = new Gtk.Box();
-	  titleWidget.set_title("Chicken");
+	  titleWidget.set_title("chickne");
 	  header.set_title_widget(titleWidget);
 	  view.add_top_bar(header);
 	  const chicken = Gtk.Image.new_from_resource("/io/github/dingusreal/Chicken/chicken.png");
